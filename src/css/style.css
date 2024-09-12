@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+align-items: center;
+}
+
+.logo {
+    max-width: 360px;
+    margin-top: 164px;
+    margin-bottom: 80px;
+}
+
+form {
+    width: 360px;
+}
+
+legend {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.email, .password {
+    background-color: #EBEBEB;
+    border: none;
+    width: 360px;
+    height: 44px;
+    margin-top: 16px;
+    border-radius: 10px;
+    
+}
+
+::placeholder{
+    color: #9c9c9c;
+    padding-left: 10px;
+}
+
+.checkbox {
+    accent-color: #39B54A;
+    color: #9c9c9c;
+
+    font-size: 14px;
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.checkbox input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.button {
+    font-weight: bold;
+    background-color: #39B54A;
+    color: white;
+
+    text-transform: uppercase;
+    width: 360px;
+    height: 44px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgba(58, 182, 74, 0.205);
+    color: #39B54A;
+    border: 1px solid #39B54A;
+}
+
+.forgot-password {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #9c9c9c;
+    text-decoration: none;
+    padding-top: 16px;
+    padding-bottom: 200px;
+}
