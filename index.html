@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckList - Segurança Alimentar</title>
+    
+    <link rel="shortcut icon" href="src/imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <section class="container">
+        <img src="src/imagens/Logo.png" alt="Logo CheckList" class="logo">
+        
+        <form action="#" method="post" autocomplete="on">
+                <section>
+                    <legend class="legend">Login</legend>
+                    <p>
+                        <label for="idEmail"></label>
+                        <input type="email" name="email" class="email" id="idEmail" placeholder=" Digite seu e-mail" required autocomplete="email">
+                    </p>
+
+                    <p>
+                        <label for="idPassword"></label>
+                        <input type="password" name="password" class="password" id="idPassword" placeholder=" Digite sua senha" required autocomplete="current-password">
+                    </p>
+                </section>
+
+                <section>
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox" id="idCheckbox">
+                        <label for="idCheckbox">Lembrar meus dados</label>
+                    </div>
+                    
+                    
+                    <input type="submit" value="Entrar" class="button">
+                    
+                    
+                    <p>
+                        <a href="#" class="forgot-password" target="_blank">Esqueceu a senha?</a>
+                    </p>
+                </section>
+        </form>
+    </section>
+</body>
+</html>
